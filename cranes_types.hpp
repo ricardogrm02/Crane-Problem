@@ -220,8 +220,8 @@ public:
 // This class can only represent a valid path, so steps that would move off
 // the grid, or move through a building cell, are prohibited with assertions.
 //
-// This class tracks the ending position, and total number of cranes, of the path, 
-// in order to make it easier to compare candidate solutions in the exhaustive 
+// This class tracks the ending position, and total number of cranes, of the path,
+// in order to make it easier to compare candidate solutions in the exhaustive
 // optimization algorithm.
 class path {
 private:
